@@ -5,6 +5,8 @@
  */
 package practice;
 
+import com.interview.strings.*;
+
 /**
  *
  * @author vipinsharma
@@ -15,7 +17,13 @@ public class Practice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO code application logic heres
+        try {
+            System.out.println(new StringsAndArrays().isUnique("vipn"));
+            
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
     
 }
